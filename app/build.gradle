@@ -165,10 +165,10 @@ dependencies {
     compile "com.jakewharton.rxbinding:rxbinding-appcompat-v7:${rxBindingsVersion}"
 
     compile "com.jakewharton:butterknife:${butterknifeVersion}"
-    apt "com.jakewharton:butterknife-compiler:${butterknifeVersion}"
+    annotationProcessor  "com.jakewharton:butterknife-compiler:${butterknifeVersion}"
 
     compile "com.google.dagger:dagger:${daggerVersion}"
-    apt "com.google.dagger:dagger-compiler:${daggerVersion}"
+    annotationProcessor  "com.google.dagger:dagger-compiler:${daggerVersion}"
 
     compile "com.github.bumptech.glide:glide:${glideVersion}"
 
