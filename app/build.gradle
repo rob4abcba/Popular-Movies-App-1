@@ -125,7 +125,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 ext {
-    supportLibraryVersion = "25.0.1"
+    supportLibraryVersion = "27.1.1"
     retrofitVersion = "2.1.0"
     okHttpVersion = "3.4.2"
     rxJavaVersion = "1.2.2"
