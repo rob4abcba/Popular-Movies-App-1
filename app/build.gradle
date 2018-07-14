@@ -58,7 +58,7 @@ android {
     }
     buildTypes.each {
         if (!isOnCi()) {
-            it.buildConfigField STRING, THE_MOVIE_DB_API_KEY, MY_MOVIE_DB_API_KEY
+            it.buildConfigField STRING, THE_MOVIE_DB_API_KEY, MY_MOVIE_DB_API_KEY  // RL put your API key into `~/.gradle/gradle.properties` file
         } else {
             it.buildConfigField STRING, THE_MOVIE_DB_API_KEY, UNDEFINED
         }
